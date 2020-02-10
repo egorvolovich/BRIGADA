@@ -1,0 +1,447 @@
+/*
+font-family: 'Muli', sans-serif;
+font-family: 'Lora', serif;
+font-family: 'Source Sans Pro', sans-serif;
+*/
+
+
+
+body {
+    font-family: 'Muli', sans-serif;
+    height: 100%;
+    display: grid;
+    grid-template-rows: auto 200px;
+}
+
+html{
+    height: 100%;
+}
+
+.login-container{
+    height: 100%;
+}
+
+.block-example {
+    background-color: #c2ee55;
+    padding: 10px;
+}
+
+.login-background{
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+}
+
+.footer{
+    width: 100%;
+    margin: 0;
+}
+
+.login-label{
+    color: white;
+}
+
+
+/* •••••••••••••••••••••••
+
+         NAV
+
+•••••••••••••••••••••••••*/
+
+.nav-wrapper {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.logo {
+    font-size: 22px;
+    color: #041122;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.navigation {
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 3px;
+
+}
+
+
+.navigation__link {
+    color: #52575d;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+.navigation__link:hover, .navigation__link:active, .navigation__link:focus {
+    color: #00CED1;
+    text-decoration: none;
+}
+
+.log {
+    padding-top: 5px;
+    color: #5E5E5E;
+}
+
+.fa-user {
+    color: #008B8B;
+}
+
+
+
+/* •••••••••••••••••••••••
+
+         HEADER
+
+•••••••••••••••••••••••••*/
+
+.header {
+    position: relative;
+    height: 600px;
+    /*  background-color:   #ABABAB; */
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.header .container {
+    position: relative;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.header__bg {
+    position: absolute;
+    background-color: #B96060;
+    height: 100%;
+    width: 100%;
+    left: 34%;
+    top: 0;
+    overflow: hidden;
+    background-color: #f8f7f7;
+    background-image: url(../img/bg/maxkorzh.jpg);
+    background-repeat: no-repeat;
+    background-position: left top;
+    z-index: -1;
+}
+
+
+.header__content {
+    width: 750px;
+}
+
+
+.header__title {
+    color: #222;
+    font-size: 74px;
+    font-family: 'Lora', serif;
+    line-height: 1.25;
+    margin-bottom: 25px;
+}
+
+.header__description {
+    color: #52575D;
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 50px;
+}
+
+.header__button {
+    background-color: #00CED1;
+    font-size: 20px;
+    color: #FFF;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 14px;
+    line-height: 1;
+    height: 50px;
+    display: inline-block;
+    border-radius: 4px;
+    box-shadow: 0px 5px 30px 0px rgba(31, 35, 37, 0.3);
+    text-decoration: none;
+    transition: all 0.2s ease-in;
+}
+
+.header__button:hover {
+    background-color: #20B2AA;
+    text-decoration: none;
+    box-shadow: 0px 5px 30px 0px rgba(31, 35, 37, 0.4);
+    color: #FFF;
+}
+
+
+/* •••••••••••••••••••••••
+
+         AFISHA
+
+•••••••••••••••••••••••••*/
+
+.section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.title{
+    font-size: 35px;
+    color: #222;
+    font-family: 'Muli', sans-serif;
+    margin: 0;
+    margin-bottom: 7px;
+    text-align: center;
+}
+
+.subtitle {
+    font-size: 16px;
+    color: #919191;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+
+
+
+/* •••••••••••••••••••••••
+
+         CARDS
+
+•••••••••••••••••••••••••*/
+
+.card {
+    font-family: 'Muli', sans-serif;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.card__image {
+    margin-bottom: 2px;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.card__image img {
+    max-width: 100%;
+}
+
+.card__title {
+    color: #222;
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-decoration: none;
+
+
+}
+
+.card__title:hover, .card__title:active, .card__title:focus {
+    color: #00CED1;
+    text-decoration: none;
+}
+
+.card__date {
+
+}
+
+.card__price {
+    font-size: 13px;
+    color: #838B8F;
+
+}
+
+
+
+/* •••••••••••••••••••••••
+
+         KAZKA
+
+•••••••••••••••••••••••••*/
+
+.advcontent-center{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: space-between;
+}
+.adv-wrapper {
+    height: 300px;
+    background-image: url(../img/bg/kazka.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+}
+/*
+.adv__button {
+  border-radius: 4px;
+  background-color: #00CED1;
+  font-size: 20px;
+  color: #FFF;
+  font-family: 'Source Sans Pro', sans-serif;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 14px;
+  line-height: 1;
+  height: 50px;
+  display: inline-block;
+  border-radius: 4px;
+  box-shadow: 0px 5px 30px 0px rgba(31, 35, 37, 0.3);
+  text-decoration: none;
+  transition: all 0.2s ease-in;
+
+}
+
+.adv__button:hover {
+  background-color: #20B2AA;
+  text-decoration: none;
+  box-shadow: 0px 5px 30px 0px rgba(31, 35, 37, 0.4);
+  color: #FFF;
+}
+*/
+
+
+.card__hover{
+    opacity: 0;
+    transition: all 0.2s ease-in;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card__hover:hover {
+    opacity: 1
+}
+
+.card__button {
+    background-color: #00CED1;
+    font-size: 17px;
+    color: #FFF;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 14px;
+    line-height: 1;
+    height: 45px;
+    display: inline-block;
+    border-radius: 4px;
+    box-shadow: 0px 5px 30px 0px rgba(31, 35, 37, 0.3);
+    text-decoration: none;
+    transition: all 0.2s ease-in;
+}
+
+.card__button:hover {
+    background-color: #20B2AA;
+    text-decoration: none;
+    box-shadow: 0px 5px 30px 0px rgba(31, 35, 37, 0.4);
+    color: #FFF;
+}
+
+
+.footer {
+    background-color: #000;
+    padding: 20px 0 25px;
+    text-align: center;
+    margin-top: auto;
+}
+
+.footer-nav {
+    margin-bottom: 0px;
+}
+
+.footer-nav__link {
+    font-size: 14px;
+    line-height: 1.5;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-right: 35px;
+}
+.footer-nav__link:last-child {
+    margin-right: 0px;
+}
+
+.footer-nav__link:hover {
+    color: #00CED1;
+    text-decoration: none;
+
+}
+.footer__social {
+    margin-bottom: 20px;
+    color: #FFF;
+    font-size: 22px;
+}
+.footer__social a {
+    color: #FFF;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.footer__social a:last-child {
+    margin-right: 0px;
+}
+
+.footer__social a:hover {
+    color: #00CED1;
+    text-decoration: none;
+}
+.footer__copyright {
+    color: rgb(137, 137, 137);
+    font-size: 12px;
+}
+
+.link{
+    color: #52575d;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.link:hover{
+    color: #5cc8ff;
+    text-decoration: none;
+}
+
+.navbar{
+    background-color: white;
+}
+
+.slider-item{
+    display: grid;
+    grid-template-columns: 35% 65%;
+    grid-template-rows: 500px;
+}
+.slider-item-text{
+    grid-column: 1/2;
+}
+
+.slider-item-img{
+
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+
+}
+
+.order-submit{
+    margin-left: 15px;
+}
+
+.event-filter-container{
+
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #00CED1;
+    margin-bottom: 30px;
+
+}
