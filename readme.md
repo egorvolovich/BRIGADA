@@ -17,5 +17,5 @@
 -DB_USERNAME=<username>
 -DB_PASSWORD=<password>
 -DB_HOST=<host>
-## Создать БД и з
-    
+## Запустить приложение
+-php artisan serve
