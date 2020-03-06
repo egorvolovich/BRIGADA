@@ -11,6 +11,11 @@
 -переходим в папку проекта
 -composer self-update
 -composer install
-- создать свой файл .env на основе файла .env.example
--
--
+-создать свой файл .env на основе файла .env.example
+## Создать БД и заполнить учетные данные БД в .env
+-DB_NAME=<name>
+-DB_USERNAME=<username>
+-DB_PASSWORD=<password>
+-DB_HOST=<host>
+## Создать БД и з
+    
