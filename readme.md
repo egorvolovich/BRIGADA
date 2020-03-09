@@ -9,11 +9,11 @@
 -переходим в папку, в которой будет создан проект  
 `git clone` [https://github.com/egorvolovich/BRIGADA](https://github.com/egorvolovich/BRIGADA)  
 -переходим в папку проекта 
--создаем базу данных с именем concertsBy 
--Импортируем dump базы данных с папки корень проекта /dump
-    mysql -u USER -pPASSWORD concertsBy < dump.sql
+-создаем базу данных с именем concertsBy  
+-Импортируем dump базы данных с папки корень проекта /dump  
+    mysql -u USER -pPASSWORD concertsBy < dump.sql  
 -composer install  
 ## Создать свой файл .env на основе файла .env.example  
      
-## Запустить приложение  
-    php artisan serve  
+## Запустить приложение   
+    php artisan serve    
